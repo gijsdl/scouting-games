@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Seven Segment';
-    src: url("/font/Seven-Segment.ttf");
+    src: url("../font/Seven-Segment.ttf");
 }
 
 body {
     overflow: hidden;
-    background-image: url("/img/wall.jpg");
+    background-image: url("../img/wall.jpg");
 }
 
 .numpad {
@@ -68,7 +68,7 @@ body {
 }
 
 .backDoor {
-    background-image: url("/img/door-background.webp");
+    background-image: url("../img/door-background.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
