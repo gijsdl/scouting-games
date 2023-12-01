@@ -25,6 +25,9 @@ function checkCode() {
         toggleDoor();
     } else {
         flashDisplay('red');
+        const audio = new Audio('../audio/wrong.mp3');
+        audio.volume = 0.5
+        audio.play();
     }
     code = ""
     displayDiv.innerText = code;
@@ -35,10 +38,11 @@ function flashDisplay(color) {
     displayDiv.classList.add(color);
     setTimeout(() => {
         displayDiv.classList.remove(color);
-    }, 1000);
+    }, 1500);
 }
 
 function toggleDoor() {
     door.classList.toggle("doorOpen");
+    new Audio('../audio/door.mp3').play();
 }
 

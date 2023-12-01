@@ -68,11 +68,12 @@ body {
 }
 
 .backDoor {
-    background-color: #333;
+    background-image: url("/img/door-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     width: 40vw;
     height: 90vh;
-
     right: 50px;
     margin-top: 25px;
     border: 15px solid #F09A0E;
@@ -90,13 +91,13 @@ body {
 .door {
     background-color: rgb(200, 0, 0);
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 40vw;
     height: 90vh;
     z-index: 1;
     transform-origin: left;
-    transition: all 20s ease-in-out;
+    transition: all 11s ease-in-out;
 }
 
 .door-detail {
