@@ -2,7 +2,7 @@ const door = document.querySelector(".door");
 const numbersDivs = document.querySelectorAll(".number");
 const displayDiv = document.querySelector(".display");
 let code = "";
-const passcode = "5498";
+const passcode = "5288";
 // element.addEventListener("click", toggleDoor);
 
 numbersDivs.forEach((numberDiv) => {
