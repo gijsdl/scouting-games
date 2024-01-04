@@ -51,7 +51,6 @@ const games = [
     "Door fluister spel",
 ];
 
-console.log(games.length);
 const mainElement = document.querySelector("main");
 
 games.forEach((game) => {
